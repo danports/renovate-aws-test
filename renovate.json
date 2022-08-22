@@ -9,7 +9,7 @@
                 "\\.yaml$"
             ],
             "matchStrings": [
-                ".*amiFilter=(?<lookupName>.+?)\n"
+                ".*amiFilter=(?<lookupName>.+?)[ ]*\n[ ]*(?<depName>[a-zA-Z0-9-_:]*)[ ]*?:[ ]*?[\"|']?(?<currentValue>[.\\d]+)[\"|']?.*"
             ],
             "datasourceTemplate": "aws-rds"
         }
