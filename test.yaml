@@ -1,3 +1,3 @@
 spec:
   # amiFilter=[{"Name":"engine","Values":["mysql"]}]
-  engineVersion: 8.0.24
+  engineVersion: 8.0.28
