@@ -1,0 +1,17 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:base"
+    ],
+    "regexManagers": [
+        {
+            "fileMatch": [
+                "\\.yaml$"
+            ],
+            "matchStrings": [
+                ".*amiFilter=(?<lookupName>.+?)\n"
+            ],
+            "datasourceTemplate": "aws-rds"
+        }
+    ]
+}
